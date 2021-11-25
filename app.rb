@@ -21,11 +21,7 @@ for i in (0...y_length)
         row = [0,0,0,0,0,0,0,0]
     else
         for j in (0...x_length)
-            if j == 0 || j == x_length -1 
-                row[j] = 0
-            else
-                row[j] = rand(2)
-            end
+            row[j] = 0
         end
     end
     table.push(row)
